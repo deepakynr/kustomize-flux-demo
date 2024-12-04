@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+namePrefix: prod-
+replicas:
+  - name: my-app
+    count: 5
+images:
+  - name: my-app
+    newTag: v2.0
